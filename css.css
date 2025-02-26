@@ -1,0 +1,55 @@
+
+
+.jugadores {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-image: url('FondoEquipos.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid black;
+    padding: 12px;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+.foto3 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.tablaju {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.tablaju th, .tablaju td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.tablaju th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #222;
+}
+
+.tablaju tr:nth-child(1) th {
+    border-bottom: 2px solid #222;
+}
+
+
