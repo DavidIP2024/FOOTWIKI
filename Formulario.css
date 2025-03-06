@@ -1,0 +1,163 @@
+#formfut {
+    width: 1500px;
+    margin: auto;
+    padding: 40px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: background 0.3s, color 0.3s;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 300px; 
+    height: auto; 
+    z-index: 10; 
+}
+
+
+.logomenu {
+    width: 80px; 
+    height: 40px; 
+    margin-top: 5px;
+}
+
+
+.menu {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 5px 20px; 
+    z-index: 1000;
+}
+
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center; 
+    width: 100%; 
+    justify-content: center; 
+}
+
+
+.menu ul li {
+    padding: 10px 20px; 
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+.menu ul li a:hover {
+    color: #FA9D1B;
+}
+
+
+.logo-item {
+    margin-right: 20px; 
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 20px; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+
+.menu ul li:not(.logo-item) {
+    margin-left: 20px; 
+}
+
+
+.menu-social {
+    background-color: #333; 
+    position: fixed; 
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.menu-social ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-social ul li {
+    padding: 5px 20px;
+}
+
+.menu-social ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu-social ul li a:hover {
+    color: #FA9D1B; 
+}
+
+#formfut:hover {
+    background: url('FotoForm.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+
+#formfut:hover h1, 
+#formfut:hover label {
+    color: white;
+}
+
+#formfut label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    transition: color 0.3s;
+}
+
+#formfut input, #formfut textarea, #formfut select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#formfut button {
+    width: 100%;
+    padding: 10px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#formfut button:hover {
+    background: #2980b9;
+}
