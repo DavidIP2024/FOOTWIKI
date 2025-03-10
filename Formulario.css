@@ -1,3 +1,14 @@
+.inicio{
+	background-image: url('FotoInicio.jpg');
+	background-size: cover;
+	margin: 35px;
+    padding-top: 80px;
+	font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 #formfut {
     width: 1500px;
     margin: auto;
